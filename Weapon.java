@@ -6,7 +6,7 @@ public class Weapon {
     String rarity;
     String description;
 
-    // Enemy method
+    // Weapon method
     public void weaponDescription() {
         System.out.println("This is the " + name + ", it hurts as much as " + damage + 
         " damage, it's heavy as " + weight + " kilos and its rarity is " + rarity + "!");
