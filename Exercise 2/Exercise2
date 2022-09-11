@@ -1,0 +1,33 @@
+    import java.util.LinkedList;
+
+public class Exercise2 {
+    public static void main(String[] args) {
+
+    LinkedList<String> Song = new LinkedList<>();
+
+        
+    Song.add("Harana");
+    Song.add("Pagtingin");
+    Song.add("Mundo");
+    Song.add("Sino");
+    Song.add("Demonyo");
+
+   
+    Song.addFirst("Buwan");
+
+ 
+    Song.addLast("Bulong");
+
+ 
+    System.out.println(Song.get(0));
+
+ 
+    Song.set(6, "Eroplanong Papel");
+
+
+    Song.remove(0);
+
+   
+    System.out.println("Michael's Playlist: " + Song);
+}
+}
