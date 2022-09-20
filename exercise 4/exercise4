@@ -1,0 +1,31 @@
+import java.util.*;
+
+public class App {
+        public static void main(String[] args) {
+            Queue<String> HotelReservation = new LinkedList<>();
+
+            //Addss elements to the queue
+            HotelReservation.add(e: "Mike");
+            HotelReservation.add(e: "Gelo");
+            HotelReservation.add(e: "Saul");
+            HotelReservation.add(e: "Alex");
+
+            //Display all elements of the queue
+            System.out.println(HotelReservation);
+
+            //Removes the element at the front of the queue
+            HotelReservation.remove();
+
+            //Returns the number of elements in the queue
+            System.out.println(HotelReservation.size());
+
+            //Shows the element at the front of the queue
+            System.out.println(HotelReservation.peek());
+
+            //Display all elements of the queue
+            System.out.println(HotelReservation);
+
+
+
+        }
+}
